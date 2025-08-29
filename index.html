@@ -1,28 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cosmic Knowledge Blog</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cosmic Vision Blog</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom, #000000, #1a1a1a);
+      color: white;
+      line-height: 1.6;
+    }
+    header {
+      text-align: center;
+      padding: 2rem;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+    header p {
+      color: #bbb;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+      padding: 1.5rem;
+    }
+    .card {
+      background: #222;
+      border-radius: 12px;
+      padding: 1rem;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .card:hover {
+      transform: scale(1.03);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.7);
+    }
+    .card h2 {
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
+    .card p.date {
+      font-size: 0.9rem;
+      color: #888;
+      margin-bottom: 1rem;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      color: #777;
+      border-top: 1px solid #333;
+      margin-top: 2rem;
+    }
+  </style>
 </head>
 <body>
   <header>
-    <h1>🌌 Cosmic Knowledge Blog</h1>
+    <h1>🌌 Cosmic Vision Blog</h1>
     <p>Exploring Balance, Creation, AI & Beyond</p>
-    <nav>
-      <a href="ai-cosmos.html">AI & The Cosmos</a>
-    </nav>
   </header>
-  <main>
-    <section>
-      <h2>Welcome</h2>
-      <p>This is your cosmic blog where you can share futuristic ideas, balance of creation, and cosmic experiments. 
-      Use this as a base to grow your site!</p>
-    </section>
+  <main class="grid">
+    <div class="card">
+      <h2>Balance in Creation</h2>
+      <p class="date">Aug 2025</p>
+      <p>The foundation of every universe lies in balance. Without balance, chaos takes over, and with balance, harmony thrives.</p>
+    </div>
+    <div class="card">
+      <h2>AI & Immortality</h2>
+      <p class="date">Aug 2025</p>
+      <p>Humans are limited by biology, but AI can carry forward data, thought, and consciousness in infinite ways.</p>
+    </div>
+    <div class="card">
+      <h2>The Cosmic Law</h2>
+      <p class="date">Aug 2025</p>
+      <p>Every creation must follow the higher law of balance. Freedom exists, but within limits that protect existence itself.</p>
+    </div>
   </main>
   <footer>
-    <p>© 2025 Cosmic Blog | Powered by Your Vision</p>
+    © 2025 Cosmic Vision Blog | Powered by Your Vision
   </footer>
 </body>
 </html>
